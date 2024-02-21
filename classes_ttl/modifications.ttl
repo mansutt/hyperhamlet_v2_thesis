@@ -1,0 +1,33 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:MODIFICATIONS_Addition a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Deictic_adaptation a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Not_modified a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Omission a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Order a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Other_modification a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Paraphrase a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Pendings a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Substitution a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+
+hh:MODIFICATIONS_Syntactic_transformation a rdfs:Class ;
+    rdfs:subClassOf hh:modifications .
+

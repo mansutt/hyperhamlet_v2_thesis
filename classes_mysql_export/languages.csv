@@ -1,0 +1,12 @@
+id,name,sortorder,parent
+1,English,1,NULL
+2,German,2,NULL
+3,French,3,NULL
+75,"Classical Greek",10,NULL
+77,Russian,4,NULL
+79,"Eastern and Northern European",6,NULL
+115,Latin,9,NULL
+117,Asian,8,NULL
+125,Italian,18,NULL
+126,Portuguese,19,NULL
+127,Spanish,20,NULL

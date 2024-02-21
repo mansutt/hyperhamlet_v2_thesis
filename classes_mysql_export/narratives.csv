@@ -1,0 +1,6 @@
+id,name,sortorder,parent
+81,Narrator,1,NULL
+83,Dialogue,2,NULL
+84,"First-person narrator",5,NULL
+111,"Interior monologue",3,NULL
+148,"Fictional letter or diary",7,NULL

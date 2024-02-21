@@ -1,0 +1,171 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:OVERLAPS_Alexander_Cooke a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Alexander_Gough a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Andrew_Pennycuicke a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Anthony_Turner a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Augustine_Phillips a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Ben_Jonson a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Charles_Hart a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Christopher_Beeston a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Edward_Alleyn a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Edward_Kynaston a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Elizabeth_Barry a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Elizabeth_Boutell a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Elizabeth_Cox a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Elizabeth_James a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Henry_Condell a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_John_Heminges a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_John_Honyman a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_John_Lowin a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_John_Sinklo a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_John_Underwood a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Joseph_Taylor a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Keyword a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Michael_Mohun a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Nathan_Field a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Nicholas_Burt a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Nicholas_Tooley a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Partial_match a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Perfect_match a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Rebecca_Marshall a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Richard_Burbage a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Richard_Cowley a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Richard_Perkins a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Richard_Robinson a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Richard_Sharpe a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Robert_Armin a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Robert_Benfield a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Robert_Gough a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Samuel_Rowley a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Stephen_Hammerton a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Structural_match a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Thomas_Betterton a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Thomas_Pollard a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Thomas_Pope a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_Timothy_Read a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Allen a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Barksted a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Cartwright a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Ecclestone a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Kempe a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Ostler a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Robbins a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Rowley a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Shakespeare a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_Sly a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_William_WIntershall a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+
+hh:OVERLAPS_pending a rdfs:Class ;
+    rdfs:subClassOf hh:overlaps .
+

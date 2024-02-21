@@ -1,0 +1,11 @@
+id,name,sortorder,parent
+1,Pendings,18,NULL
+8,"Deictic adaptation",11,NULL
+9,Substitution,8,NULL
+10,Addition,9,NULL
+11,Omission,10,NULL
+12,Order,12,NULL
+14,Paraphrase,15,NULL
+15,"Other modification",14,NULL
+16,"Not modified",16,NULL
+17,"Syntactic transformation",13,NULL

@@ -1,0 +1,14 @@
+id,name,sortorder,parent
+2,Line,1,NULL
+283,"Line - To be or not to be",3,NULL
+311,Clause,2,2
+312,"Noun phrase",3,2
+313,"Verb phrase",4,2
+314,"Adjective phrase",5,2
+315,Other,6,2
+320,pending,13,2
+346,"Longer passage",12,2
+354,"To be or not to be that is the question",1,283
+355,"To be or not to be",2,283
+356,"... longer",3,283
+

@@ -1,0 +1,30 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:SECONDARIES_Annotated_Shakespeare_edition a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+
+hh:SECONDARIES_Annotated_edition a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+
+hh:SECONDARIES_Anthology_or_dictionary a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+
+hh:SECONDARIES_Fulltext_database a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+
+hh:SECONDARIES_Literary_Studies a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+
+hh:SECONDARIES_Reading a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+
+hh:SECONDARIES_Scholarly_database a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+
+hh:SECONDARIES_Shakespeare_Studies a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+
+hh:SECONDARIES_morethanonelexia a rdfs:Class ;
+    rdfs:subClassOf hh:secondaries .
+

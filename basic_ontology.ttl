@@ -1,0 +1,423 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+### Classes # write labels and comments
+hh:authormarks rdf:type rdfs:Class .
+hh:authors rdf:type rdfs:Class .
+hh:citations rdf:type rdfs:Class .
+hh:contributors rdf:type rdfs:Class .
+hh:generals rdf:type rdfs:Class .
+hh:genres rdf:type rdfs:Class .
+hh:hamlettext rdf:type rdfs:Class .
+hh:intertextuals rdf:type rdfs:Class .
+hh:languages rdf:type rdfs:Class .
+hh:linecategories rdf:type rdfs:Class .
+hh:modifications rdf:type rdfs:Class .
+hh:narratives rdf:type rdfs:Class .
+hh:overlaps rdf:type rdfs:Class .
+hh:quotmarks rdf:type rdfs:Class .
+hh:roles rdf:type rdfs:Class .
+hh:secondaries rdf:type rdfs:Class .
+hh:subjects rdf:type rdfs:Class .
+hh:textuals rdf:type rdfs:Class .
+hh:users rdf:type rdfs:Class .
+hh:usertokens rdf:type rdfs:Class .
+hh:workmarks rdf:type rdfs:Class .
+
+### separate classes to identify gender of author
+hh:Gender rdf:type rdfs:Class ;
+    rdfs:label "Gender" ;
+    rdfs:comment "Represents the gender of an author" .
+
+hh:MaleAuthors rdf:type rdfs:Class ;
+    rdfs:label "Male" ;
+    rdfs:comment "Represents the male gender" ;
+    rdfs:subClassOf hh:Gender .
+
+hh:FemaleAuthors rdf:type rdfs:Class ;
+    rdfs:label "Female" ;
+    rdfs:comment "Represents the female gender" ;
+    rdfs:subClassOf hh:Gender .
+
+hh:OtherGenderAuthors rdf:type rdfs:Class ;
+    rdfs:label "Other" ;
+    rdfs:comment "Represents other genders" ;
+    rdfs:subClassOf hh:Gender .
+
+
+##### PROPERTIES FOR INDIVIDUAL CLASSES #####
+
+### Properties for authormarks 
+### Properties for authors 
+
+hh:AuthorLastName rdf:type rdf:Property ;
+    rdfs:domain hh:authors ;
+    rdfs:range xsd:string ;
+    rdfs:label "has last name" ;
+    rdfs:comment "The last name of the author" .
+
+hh:AuthorFirstName rdf:type rdf:Property ;
+    rdfs:domain hh:authors ;
+    rdfs:range xsd:string ;
+    rdfs:label "has first name" ;
+    rdfs:comment "The first name of the author" .
+
+hh:AuthorDescription rdf:type rdf:Property ;
+    rdfs:domain hh:authors ;
+    rdfs:range xsd:string ;
+    rdfs:label "has description" ;
+    rdfs:comment "description of author" .
+
+hh:AuthorGender rdf:type rdf:Property ;
+    rdfs:domain hh:authors ;
+    rdfs:range hh:Gender ;
+    rdfs:label "has gender" ;
+    rdfs:comment "The gender of the author" .
+
+
+
+
+### Properties for citations 
+
+hh:hasCitationText rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "has Citation Text" ;
+    rdfs:comment "The text in which Hamlet is cited" .
+
+hh:hasCitationTitle rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "has Citation Title" ;
+    rdfs:comment "The title of the work that cites Hamlet" .
+
+hh:yearFrom rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:integer ;
+    rdfs:label "written from" ;
+    rdfs:comment "The year from which the citing text was written" .
+
+hh:yearTo rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:integer ;
+    rdfs:label "written until" ;
+    rdfs:comment "The year until which the citing text was written" .
+
+hh:cyearFrom rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:integer ;
+    rdfs:label "content written from" ;
+    rdfs:comment "The year from which the content in the citing text was written" .
+
+hh:cyearTo rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:integer ;
+    rdfs:label "content written until" ;
+    rdfs:comment "The year until which the content in the citing text was written" .
+
+hh:hasLinktext rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "by x Author in y year" ;
+    rdfs:comment "Author + year" .
+
+hh:hasBibliography rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "Bibliographical information" ;
+    rdfs:comment "The bibligraphical information of the work that cites Hamlet" .
+
+hh:hasComment rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "Comment" ;
+    rdfs:comment "Comments about the citing work" .
+
+hh:hasEsource rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "in esource" ;
+    rdfs:comment "links esource if exists" .
+
+hh:hasInternalComment rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "internal comment" ;
+    rdfs:comment "an internal comment that will not be published" .
+
+# not sure what this is used for
+hh:hasSecSrcTxt rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "has SecSrcTxt" ;
+    rdfs:comment "has Secondary Source Text (?)" . 
+
+hh:hasEntryDate rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:dateTime ;
+    rdfs:label "was entered into database on" ;
+    rdfs:comment "timestamp of when the entry was added to the database" .
+
+hh:hasOkDate rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:dateTime ;
+    rdfs:label "was approved on" ;
+    rdfs:comment "timestamp of when the entry was approved to be added to the database by an editor" .
+
+hh:hasLastModif rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:dateTime ;
+    rdfs:label "was last modified on" ;
+    rdfs:comment "timestamp of last modification" .
+
+hh:hasStatusFlag rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range xsd:string ;
+    rdfs:label "has status" ;
+    rdfs:comment "the status of the citation in the database" .
+
+
+
+# outbound properties for citations -> to instances of other classes
+
+hh:hasAuthor rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:authors ;
+    rdfs:label "has author" ;
+    rdfs:comment "The author of the citing text" .
+
+hh:contributedBy rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:contributors ;
+    rdfs:label "contributed by" ;
+    rdfs:comment "By whom was this citation contributed" .
+
+hh:hasAuthormarks rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:Authormarks ;
+    rdfs:label "author is marked with" ;
+    rdfs:comment "How the author is marked" .
+
+hh:hasGenre rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:genres ;
+    rdfs:label "is of genre" ;
+    rdfs:comment "the genre of the citing text" .
+
+hh:inLanguage rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:languages ;
+    rdfs:label "is in language" ;
+    rdfs:comment "the language of the citing text" .
+
+hh:hasGeneral rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:generals ;
+    rdfs:label "falls under following general categorization of content" ;
+    rdfs:comment "Categorization of content in citing work" .
+
+hh:hasIntertextual rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:intertextuals ;
+    rdfs:label "has following intertextual reference" ;
+    rdfs:comment "the intertextual reference of the citing text" .
+
+hh:hasLineCategory rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:linecategories ;
+    rdfs:label "has line category" ;
+    rdfs:comment "the category of the line in the citing text" .
+
+hh:hasModifications rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:modifications ;
+    rdfs:label "has modifications" ;
+    rdfs:comment "Modifications made to the citation" .
+
+hh:hasNarrative rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:narratives ;
+    rdfs:label "has narrative" ;
+    rdfs:comment "the narrative of the citing text" .
+
+hh:hasOverlap rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:overlaps ;
+    rdfs:label "has overlap" ;
+    rdfs:comment "Indicates whether the citation has overlap with another citation" .
+
+hh:hasQuotMark rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:quotmarks ;
+    rdfs:label "has quotation mark" ;
+    rdfs:comment "Indicates how the citation is marked" .
+
+hh:hasSecondary rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:secondaries ;
+    rdfs:label "has secondary" ;
+    rdfs:comment "Indicates from which field the citation originates" .
+
+hh:hasSubject rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:subjects ;
+    rdfs:label "has subject" ;
+    rdfs:comment "The subject of the citing text" .
+
+hh:hasTextual rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:textuals ;
+    rdfs:label "consists of" ;
+    rdfs:comment "What the citing text consists of" .
+
+hh:hasWorkmark rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:Workmark ;
+    rdfs:label "has workmark" ;
+    rdfs:comment "How the work is marked" .
+
+hh:referencesHamletText rdf:type rdf:Property ;
+    rdfs:domain hh:citations ;
+    rdfs:range hh:hamlettext ;
+    rdfs:label "references Hamlet text" ;
+    rdfs:comment "The part of Hamlet that the citation references" .
+
+
+### Properties for contributors
+
+hh:ContributorLastName rdf:type rdf:Property ;
+    rdfs:domain hh:contributors ;
+    rdfs:range xsd:string ;
+    rdfs:label "has last name" ;
+    rdfs:comment "Last name of contributor" .
+
+hh:ContributorFirstName rdf:type rdf:Property ;
+    rdfs:domain hh:contributors ;
+    rdfs:range xsd:string ;
+    rdfs:label "has first name" ;
+    rdfs:comment "First name of contributor" .
+
+hh:ContributorEmail rdf:type rdf:Property ;
+    rdfs:domain hh:contributors ;
+    rdfs:range xsd:string ;
+    rdfs:label "has email address" ;
+    rdfs:comment "The email address of the contributor" .
+
+hh:ContributorEmailPublic rdf:type rdf:Property ;
+    rdfs:domain hh:contributers ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "is public email" ;
+    rdfs:comment "indicates whether email address is public" .
+
+### Properties for generals
+### Properties for Genres
+### Properties for hamlettext
+
+hh:HamletTextLine rdf:type rdf:Property ;
+    rdfs:domain hh:hamlettext ;
+    rdfs:range xsd:string ;
+    rdfs:label "is the following Hamlet line" ;
+    rdfs:comment "the original Hamlet line that was cited" .
+
+hh:HamletTextLineNo rdf:type rdf:Property ;
+    rdfs:domain hh:hamlettext ;
+    rdfs:range xsd:integer ;
+    rdfs:label "is xth line in Hamlet" ;
+    rdfs:comment "Which line in Hamlet is quoted" .
+
+hh:HamletTextAct rdf:type rdf:Property ;
+    rdfs:domain hh:hamlettext ;
+    rdfs:range xsd:integer ;
+    rdfs:label "is act" ;
+    rdfs:comment "the cited act" .
+
+hh:HamletTextScene rdf:type rdf:Property ;
+    rdfs:domain hh:hamlettext ;
+    rdfs:range xsd:integer ;
+    rdfs:label "is scene" ;
+    rdfs:comment "the cited scene" .
+
+hh:HamletTextType rdf:type rdf:Property ;
+    rdfs:domain hh:hamlettext ;
+    rdfs:range xsd:string ;
+    rdfs:label "is type" ;
+    rdfs:comment "which text type" .
+
+# outbound 
+
+hh:HamletTextLineCategory rdf:type rdf:Property ;
+    rdfs:domain hh:hamlettext ;
+    rdfs:range hh:linecategories ;
+    rdfs:label "is line category" ;
+    rdfs:comment "the category of the Hamlet text line" .
+
+
+### Properties for intertextuals
+### Properties for languages
+### Properties for linecategories
+### Properties for modifications
+### Properties for narratives
+### Properties for overlaps
+### Properties for quotmarks
+### Properties for roles
+
+hh:RoleName rdf:type rdf:Property ;
+    rdfs:domain hh:roles ;
+    rdfs:range xsd:string .
+
+hh:RoleDescription rdf:type rdf:Property ;
+    rdfs:domain hh:roles ;
+    rdfs:range xsd:string ;
+    rdfs:label "has role description" ;
+    rdfs:comment "Description of the role" .
+
+
+### Properties for secondaries
+### Properties for subjects
+### Properties for textuals
+### Properties for users
+
+hh:UserName rdf:type rdf:Property ;
+    rdfs:domain hh:users ;
+    rdfs:range xsd:string .
+
+hh:UserEmail rdf:type rdf:Property ;
+    rdfs:domain hh:users ;
+    rdfs:range xsd:string .
+
+hh:UserPW rdf:type rdf:Property ;           # maybe hash this?
+    rdfs:domain hh:users ;
+    rdfs:range xsd:string .
+
+hh:UserLogins rdf:type rdf:Property ;
+    rdfs:domain hh:users ;
+    rdfs:range xsd:integer .
+
+hh:UserLastLogin rdf:type rdf:Property ;
+    rdfs:domain hh:users ;
+    rdfs:range xsd:dateTime .
+
+
+# ### Properties for User token               # not in use?
+# 
+# hh:UserTokenAgent rdf:type rdf:Property ;
+#     rdfs:domain hh:users ;
+#     rdfs:range xsd:string .
+# 
+# hh:UserToken rdf:type rdf:Property ;
+#     rdfs:domain hh:users ;
+#     rdfs:range xsd:string .
+# 
+# hh:UserTokenCreated rdf:type rdf:Property ;
+#     rdfs:domain hh:users ;
+#     rdfs:range xsd:dateTime .
+# 
+# hh:UserTokenExpires rdf:type rdf:Property ;
+#     rdfs:domain hh:users ;
+#     rdfs:range xsd:dateTime .
+# 
+
+### Properties for workmarks

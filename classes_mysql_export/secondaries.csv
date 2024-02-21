@@ -1,0 +1,10 @@
+id,sortorder,parent,name
+5,1,NULL,Reading
+59,7,NULL,"Anthology or dictionary"
+60,5,NULL,"Literary Studies"
+62,4,NULL,"Shakespeare Studies"
+63,3,NULL,"Annotated edition"
+67,2,NULL,"Fulltext database"
+71,11,NULL,"Annotated Shakespeare edition"
+79,13,NULL,"Scholarly database"
+83,14,NULL,morethanonelexia

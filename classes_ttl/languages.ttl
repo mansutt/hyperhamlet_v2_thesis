@@ -1,0 +1,36 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:LANGUAGES_Asian a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_Classical_Greek a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_Eastern_and_Northern_European a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_English a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_French a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_German a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_Italian a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_Latin a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_Portuguese a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_Russian a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+
+hh:LANGUAGES_Spanish a rdfs:Class ;
+    rdfs:subClassOf hh:languages .
+

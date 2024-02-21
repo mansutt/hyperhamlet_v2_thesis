@@ -1,0 +1,33 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:TEXTUALS_ANTHOLOGY_ENTRY a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_BODY_OF_TEXT a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_CHARACTERNAME a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_COMPLETE_TEXT a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_EPIGRAPH a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_FOOTNOTE_OR_OTHER a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_First_part_of_academic_title a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_PREFACE_OR_DEDICATION a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_STAGE_DIRECTION a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+
+hh:TEXTUALS_TITLE a rdfs:Class ;
+    rdfs:subClassOf hh:textuals .
+

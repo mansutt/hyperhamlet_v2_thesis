@@ -1,0 +1,18 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:NARRATIVES_Dialogue a rdfs:Class ;
+    rdfs:subClassOf hh:narratives .
+
+hh:NARRATIVES_Fictional_letter_or_diary a rdfs:Class ;
+    rdfs:subClassOf hh:narratives .
+
+hh:NARRATIVES_Firstperson_narrator a rdfs:Class ;
+    rdfs:subClassOf hh:narratives .
+
+hh:NARRATIVES_Interior_monologue a rdfs:Class ;
+    rdfs:subClassOf hh:narratives .
+
+hh:NARRATIVES_Narrator a rdfs:Class ;
+    rdfs:subClassOf hh:narratives .
+

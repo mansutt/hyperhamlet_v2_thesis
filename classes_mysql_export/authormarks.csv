@@ -1,0 +1,7 @@
+id,name,sortorder,parent
+1,"Author unmarked",2,NULL
+2,"Author name",3,NULL
+3,"Author epithet",4,NULL
+4,"Author by context",5,NULL
+5,"Author anonymous",6,NULL
+6,"Author wrong",7,NULL

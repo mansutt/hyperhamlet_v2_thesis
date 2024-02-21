@@ -1,0 +1,381 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:GENERALS_Admirals_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Another a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Beestons_Boys a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_CAMBRIDGE_Christs_College a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_CAMBRIDGE_Kings_College_ a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_CAMBRIDGE_St._Johns_College a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_CAMBRIDGE_Trinity_College a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_Children_of_Pauls a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Children_of_the_Chapel_Royal a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Children_of_the_Kings_Revels a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Children_of_the_Queens_Revels a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Children_of_the_Whitefriars a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Claudius a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Closet_Scene_IIIiv a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_DUBLIN_Werburgh_Street_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_Derbys_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_ESSEX_Wanstead_Manor a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_Earl_of_Bridgewaters_household a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Earl_of_Huntingdons_household a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Earl_of_Oxfords_Boys a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Earl_of_Oxfords_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Elsinore_Wittenberg a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_English_court a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Fortinbras a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_GREECE_Hellespont a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_GREECE_Mount_Ossa a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_GREECE_Philippi a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_Gertrude a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Ghost_or_Old_Hamlet a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Ghost_scenes a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Gravedigger_scene_Vi a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Gravediggers_or_clowns a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Hamlet a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+<http://hyperhamlet.unibas.ch/rdf-schema#GENERALS_Hamlet&039;s_Oedipus_complex> a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Hamlet_read_by_fictional_chara a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Hamlet_without_the_prince a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Hamlets_indecision_and_melanch a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Hamlets_madness a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Horatio a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_John_Ogilbys_Company a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Kings_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Kings_Revels_Company a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_LEICESTERSHIRE_Ashby_de_la_Zou a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Aldgate a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Archbishops_Palace a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Banqueting_House a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Blackfriars a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Boars_Head a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Cockpit a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Cuckolds_Haven a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Curtain_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Dorset_Garden_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Fortune_Playhouse a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Globe_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Greenwich_Palace a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Hope_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Hoxton a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Hyde_Park a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Inner_Temple a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Isle_of_Dogs a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Islington a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Middle_Temple a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Moorfield a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Newgate_Prison a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Red_Bull a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Rose_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Rotten_Row a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Salisbury_Court a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Somerset_House a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_St._Pauls_Playhouse a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Swan_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_The_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Theatre_Royal a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Thomas_Cranmers_House a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Whitefriars a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_Whitehall_Palace a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_LONDON_unknown_venue a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_Lady_Elizabeths_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Laertes a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Leicesters_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Lord_Chamberlains_Lord_Hunsdon a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Lord_Stranges_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Marquess_of_Buckinghams_househ a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_NOT_in_Hamlet a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Name_Company a rdfs:Class ;
+    rdfs:subClassOf hh:generals .
+
+hh:GENERALS_OXFORD_Christ_Church_College a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_OXFORD_St_Johns_College a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_OXFORD_Trinity_College_ a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_OXFORD_unknown_location a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_Old_Hamlets_murder a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Ophelia a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Ophelias_death a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Ophelias_madness a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Others a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Pembrokes_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Polonius a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Polonius_advice_to_Laertes a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Prince_Charles_Duke_of_Yorks_M a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Queen_Annes_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Queen_Henriettas_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Queens_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_ROME_Aventine_Hill a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_ROME_Capitol a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_RUTLAND_BurleyontheHill a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_Red_Bull_Company a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Revels_Company a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Revenge a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Rosencrantz_Guildenstern a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_SHROPSHIRE_Ludlow_Castle a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_SYRIA_Aleppo a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS_Scene_or_motif a rdfs:Class ;
+    rdfs:subClassOf hh:generals .
+
+hh:GENERALS_Sussexs_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_TURKEY_Callipolis a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+<http://hyperhamlet.unibas.ch/rdf-schema#GENERALS_The_Duke&039;s_Company> a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_The_Kings_Company a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+<http://hyperhamlet.unibas.ch/rdf-schema#GENERALS_The_Prince&039;s_Men> a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_The_Queen_Majestys_Servants a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_The_cockcrow_Ii a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_The_play_Venue_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:generals .
+
+hh:GENERALS_The_playwithintheplay a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_The_skull a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_To_be_or_not_to_be a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Scene_or_motif .
+
+hh:GENERALS_Worcesters_Men a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS_Yorick a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_Name_Company .
+
+hh:GENERALS__Hamlet_performed_in_fiction a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+
+hh:GENERALS__Hamlet_unspecified a rdfs:Class ;
+    rdfs:subClassOf hh:GENERALS_The_play_Venue_Theatre .
+

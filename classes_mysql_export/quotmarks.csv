@@ -1,0 +1,28 @@
+id,name,sortorder,parent
+4,Unmarked,3,NULL
+6,"MARKING VERBAL",4,117
+18,"Verbal other",5,6
+24,TYPOGRAPHY,6,117
+28,"Quotation marks",2,24
+33,ANOMALY,7,117
+34,Archaism,2,33
+36,"Language switch",3,33
+40,"Anomaly other",12,33
+66,"Typography other",4,24
+78,Grammar,5,33
+80,"MARKING BY NAME",8,117
+81,"Other verb",3,6
+83,"MARKING BY genre",9,117
+84,"MARKING visual or other",10,117
+95,Nominalisation,4,33
+98,"Verb to say",2,6
+99,"Metalinguistic noun",4,6
+114,"Set off",3,24
+115,"Verbal pending",12,6
+117,Marked,2,NULL
+119,"Prose-Poetry switch",13,33
+120,Italics,5,24
+123,"like or as",13,6
+126,Generalization,14,6
+141,Heading,7,24
+142,"Commonplace markers",8,24

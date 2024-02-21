@@ -1,0 +1,84 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:INTERTEXTUALS_Adaptation a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_Illustration a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_Local_reference a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_ANOMALY_Grammar a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_ANOMALY_Languageswitch a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_ANOMALY_Nominalization a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_ANOMALY_Other_thing a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_ANOMALY_Poetryswitch a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_CONTEXT a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_GENRE a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_TYPOGRAPHY_Commonplace a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_TYPOGRAPHY_Heading a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_TYPOGRAPHY_Italics a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_TYPOGRAPHY_Other a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_TYPOGRAPHY_Quotemarks a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_TYPOGRAPHY_Setoff a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_VERBAL_Generalization a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_VERBAL_Noun a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_VERBAL_Others a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_VERBAL_Say a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_VERBAL_Verb a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_MQ_VERBAL_likeas a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_Musical_setting a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_Offshoot a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_Recurrent_references a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_Shakespeare_biofiction a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+
+hh:INTERTEXTUALS_Translation a rdfs:Class ;
+    rdfs:subClassOf hh:intertextuals .
+

@@ -1,0 +1,28 @@
+id,name,sortorder,parent
+2,"Local reference",1,NULL
+27,Adaptation,3,NULL
+37,MQ_GENRE,5,NULL
+47,Offshoot,4,NULL
+48,"Recurrent references",2,NULL
+53,"Shakespeare bio-fiction",6,NULL
+56,"Musical setting",7,NULL
+58,Translation,11,NULL
+59,Illustration,12,NULL
+68,MQ_TYPOGRAPHY_Italics,17,NULL
+69,MQ_ANOMALY_Languageswitch,18,NULL
+70,MQ_TYPOGRAPHY_Commonplace,19,NULL
+71,MQ_VERBAL_Say,20,NULL
+72,MQ_VERBAL_Others,21,NULL
+73,MQ_VERBAL_Noun,22,NULL
+74,MQ_VERBAL_Verb,23,NULL
+75,MQ_TYPOGRAPHY_Quotemarks,24,NULL
+76,MQ_ANOMALY_Poetryswitch,25,NULL
+77,MQ_ANOMALY_Nominalization,26,NULL
+78,MQ_VERBAL_Generalization,27,NULL
+79,MQ_CONTEXT,28,NULL
+80,MQ_TYPOGRAPHY_Other,29,NULL
+81,MQ_VERBAL_likeas,30,NULL
+82,MQ_TYPOGRAPHY_Setoff,31,NULL
+84,MQ_ANOMALY_Grammar,32,NULL
+85,"MQ_ANOMALY_Other thing",33,NULL
+86,MQ_TYPOGRAPHY_Heading,34,NULL

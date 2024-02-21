@@ -1,0 +1,36 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:SUBJECTS_Art_architecture_music a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Classical_Studies a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_History_autobiography a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Linguistics a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Literature_and_theatre a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Philosophy_religion a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Politics_law_economics a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Psychology_medicine_health a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Sciences_engineering_IT a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Shakespeare a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+
+hh:SUBJECTS_Sociology_lifestyle_travel a rdfs:Class ;
+    rdfs:subClassOf hh:subjects .
+

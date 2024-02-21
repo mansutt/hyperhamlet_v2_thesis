@@ -1,0 +1,465 @@
+### This document is informational only (for better understandability when working on the code) and serves no other purpose.
+###
+### This document contains all rows from all HyperHamlet MySQL tables containing a 
+### general categorization of the text in any way and NOT purely dynamic instances.
+###
+### This includes the following MySQL tables: authormarks, generals, genres, intertextuals, languages, 
+### linecategories, modifications, narratives, overlaps, quotmarks, secondaries, subjects, textuals,
+### workmarks
+###
+### The columns of each of these tables are 'id', 'name', 'sortorder', 'parent'.
+### The rows are ordered and indented according to their parent-child relationship.
+### 
+### Rows ordered by ChatGPT and GitHub Copilot with manual corrections.
+
+
+AUTHORMARKS 
+
+'1', 'Author unmarked', '2', NULL
+'2', 'Author name', '3', NULL
+'3', 'Author epithet', '4', NULL
+'4', 'Author by context', '5', NULL
+'5', 'Author anonymous', '6', NULL
+'6', 'Author wrong', '7', NULL
+
+
+GENERALS
+# table cleaned up -> + remove all here and in linecategories
+
+# id, name, sortorder, parent
+'365', 'All', '1', NULL
+    '4', 'Name (Company)', '4', '365'
+        '13', 'Claudius', '4', '4'
+        '22', 'Grave-diggers or clowns', '7', '4'
+        '23', 'Rosencrantz / Guildenstern', '10', '4'
+        '33', 'Polonius', '9', '4'
+        '62', 'Elsinore / Wittenberg', '12', '4'
+        '274', 'Gertrude', '5', '4'
+        '307', 'Fortinbras', '4', '4'
+        '308', 'Yorick', '11', '4'
+        '309', 'Horatio', '8', '4'
+        '310', 'Ghost or Old Hamlet', '6', '4'
+        '342', 'Ophelia', '4', '4'
+        '344', 'Hamlet', '4', '4'
+        '361', 'Others', '13', '4'
+        '370', 'Laertes', '14', '4'
+        '417', 'King\'s Men', '1', '4'
+        '418', 'Lord Chamberlain\'s (Lord Hunsdon\'s) Men', '2', '4'
+        '422', 'Children of Pauls', '15', '4'
+        '423', 'Children of the Chapel Royal', '16', '4'
+        '424', 'Queen Henrietta\'s Men', '17', '4'
+        '428', 'Children of the Queen\'s Revels', '18', '4'
+        '429', 'Admiral\'s Men', '19', '4'
+        '430', 'Lady Elizabeth\'s Men', '20', '4'
+        '433', 'Queen Anne\'s Men', '21', '4'
+        '434', 'Queen\'s Men', '22', '4'
+        '437', 'The Queen Majesty\'s Servants', '24', '4'
+        '439', 'Worcester\'s Men', '25', '4'
+        '440', 'Pembroke\'s Men', '26', '4'
+        '442', 'Children of the King\'s Revels', '27', '4'
+        '446', 'Lord Strange\'s Men', '28', '4'
+        '447', 'Derby\'s Men', '29', '4'
+        '448', 'Revels Company', '30', '4'
+        '453', 'Earl of Bridgewater\'s household', '31', '4'
+        '454', 'English court', '32', '4'
+        '460', 'Prince Charles\' (Duke of York\'s) Men', '33', '4'
+        '461', 'Earl of Oxford\'s Men', '34', '4'
+        '463', 'Children of the Whitefriars', '35', '4'
+        '466', 'John Ogilby\'s Company', '36', '4'
+        '468', 'Beeston\'s Boys', '37', '4'
+        '469', 'Leicester\'s Men', '38', '4'
+        '474', 'King\'s Revels Company', '39', '4'
+        '476', 'Marquess of Buckingham\'s household', '40', '4'
+        '489', 'Sussex\'s Men', '41', '4'
+        '491', 'Earl of Huntingdon\'s household', '42', '4'
+        '494', 'Earl of Oxford\'s Boys', '43', '4'
+        '505', 'The King\'s Company', '44', '4'
+        '506', 'The Duke\'s Company', '45', '4'
+        '511', 'The Prince\'s Men', '46', '4'
+        '521', 'Red Bull Company', '47', '4'       
+    '6', 'Scene or motif', '5', '365'
+        '39', 'Closet Scene III:iv', '11', '6'
+        '49', 'The play-within-the-play', '10', '6'
+        '279', 'Hamlet\'s madness', '2', '6'
+        '290', 'Ophelia\'s death', '4', '6'
+        '291', 'Ophelia\'s madness', '5', '6'
+        '297', 'Hamlet\'s indecision and melancholy', '3', '6'
+        '298', '\"To be or not to be\"', '1', '6'
+        '300', 'Gravedigger scene V:i', '9', '6'
+        '301', 'Ghost scenes', '12', '6'
+        '302', 'Revenge', '7', '6'
+        '306', 'The skull', '8', '6'
+        '336', 'Hamlet without the prince', '6', '6'
+        '360', 'Another', '130', '6'
+        '362', 'Polonius\' advice to Laertes', '14', '6'
+        '364', 'Old Hamlet\'s murder', '15', '6'
+        '367', 'Hamlet\'s Oedipus complex', '16', '6'
+        '368', 'The cock-crow I:i', '17', '6'
+        '369', 'NOT in Hamlet', '131', '6'
+        '456', '\"Hamlet\" read by fictional characters', '135', '6'
+    '182', 'The play (Venue: Theatre)', '2', '365'
+        '183', '-- Hamlet performed in fiction', '50', '182'
+        '184', '-- Hamlet unspecified', '52', '182'
+        '416', 'LONDON_Globe Theatre', '4', '182'
+        '420', 'LONDON_Blackfriars', '53', '182'
+        '421', 'LONDON_The Theatre', '54', '182'
+        '425', 'LONDON_Cockpit', '55', '182'
+        '427', 'LONDON_Curtain Theatre', '56', '182'
+        '431', 'LONDON_Whitefriars', '57', '182'
+        '432', 'LONDON_Red Bull', '58', '182'
+        '435', 'LONDON_unknown venue', '59', '182'
+        '438', 'LONDON_Rose Theatre', '60', '182'
+        '444', 'LONDON_Fortune Playhouse', '61', '182'
+        '445', 'LONDON_Salisbury Court', '62', '182'
+        '449', 'LONDON_Inner Temple', '63', '182'
+        '450', 'CAMBRIDGE_Trinity College', '64', '182'
+        '451', 'SHROPSHIRE_Ludlow Castle', '65', '182'
+        '455', 'LONDON_Banqueting House', '66', '182'
+        '457', 'LONDON_Archbishop\'s Palace', '67', '182'
+        '458', 'LONDON_Boar\'s Head', '68', '182'
+        '459', 'LONDON_Swan Theatre', '69', '182'
+        '462', 'LONDON_Hope Theatre', '70', '182'
+        '464', 'CAMBRIDGE_St. John\'s  College', '71', '182'
+        '465', 'OXFORD_Trinity College ', '72', '182'
+        '467', 'DUBLIN_Werburgh Street Theatre', '73', '182'
+        '471', 'LONDON_Moorfield', '74', '182'
+        '472', 'OXFORD_Christ Church College', '75', '182'
+        '473', 'LONDON_Hyde Park', '76', '182'
+        '475', 'ESSEX_Wanstead Manor', '77', '182'
+        '477', 'RUTLAND_Burley-on-the-Hill', '78', '182'
+        '478', 'LONDON_Somerset House', '79', '182'
+        '479', 'CAMBRIDGE_King\'s College ', '80', '182'
+        '480', 'ROME_Aventine Hill', '81', '182'
+        '481', 'ROME_Capitol', '82', '182'
+        '486', 'LONDON_Greenwich Palace', '86', '182'
+        '490', 'LEICESTERSHIRE_Ashby de la Zouch Castle', '87', '182'
+        '493', 'LONDON_Whitehall Palace', '88', '182'
+        '495', 'LONDON_Middle Temple', '89', '182'
+        '496', 'GREECE_Mount Ossa', '90', '182'
+        '497', 'TURKEY_Callipolis', '91', '182'
+        '498', 'GREECE_Philippi', '92', '182'
+        '500', 'LONDON_Isle of Dogs', '93', '182'
+        '502', 'OXFORD_St Johns College', '94', '182'
+        '504', 'LONDON_Cuckolds Haven', '95', '182'
+        '507', 'LONDON_Theatre Royal', '96', '182'
+        '508', 'LONDON_Dorset Garden Theatre', '97', '182'
+        '509', 'GREECE_Hellespont', '98', '182'
+        '510', 'CAMBRIDGE_Christ\'s College', '99', '182'
+        '512', 'LONDON_Thomas Cranmers House', '100', '182'
+        '513', 'LONDON_Aldgate', '101', '182'
+        '514', 'LONDON_Islington', '102', '182'
+        '515', 'OXFORD_unknown location', '103', '182'
+        '516', 'LONDON_St. Paul\'s Playhouse', '104', '182'
+        '518', 'SYRIA_Aleppo', '105', '182'
+        '519', 'LONDON_Rotten Row', '106', '182'
+        '520', 'LONDON_Newgate Prison', '107', '182'
+        '522', 'LONDON_Hoxton', '108', '182'
+
+
+GENRES
+
+# id, name, sortorder, parent
+'1', 'Fiction', 'Fiction', '1', NULL
+    '6', 'ALL POETRY', 'Fiction', '2', '1'
+        '81', 'Poetry unspecified', 'Fiction', '1', '6'
+        '82', 'Song or ballad', 'Fiction', '2', '6'
+        '118', 'Closet drama', 'Fiction', '4', '6'
+        '202', 'Epic and verse narrative', 'Fiction', '3', '6'
+        '390', 'Verse satire', NULL, '6', '6'
+    '7', 'ALL DRAMA', 'Fiction', '3', '1'
+        '71', 'Theatre', 'Fiction', '1', '7'
+        '368', 'Tragedy', NULL, '9', '7'
+        '369', 'Comedy', NULL, '10', '7'
+        '370', 'History play', NULL, '11', '7'
+        '374', 'Tragicomedy', NULL, '13', '7'
+        '375', 'Romance', NULL, '14', '7'
+        '391', 'Masque or other', NULL, '23', '7'
+    '20', 'ALL PROSE FICTION', 'Fiction', '1', '1'
+        '75', 'Romance (prose)', 'Fiction', '6', '20'
+        '78', 'Children\'s writing', 'Fiction', '7', '20'
+        '270', 'Biographical or historicizing', 'Fiction', '3', '20'
+        '319', 'Gothic', 'Fiction', '4', '20'
+        '320', 'Science fiction or fantasy', 'Fiction', '5', '20'
+        '321', 'Crime fiction', 'Fiction', '2', '20'
+        '322', 'Prose unspecified', 'Fiction', '1', '20'
+        '353', 'Comic strip or other', 'Fiction', '8', '20'
+    '367', 'TV, film, radio, games', NULL, '4', '1'
+    '394', 'Opera or musical theatre', NULL, '5', '1'
+'4', 'NONFICTION', 'Nonfiction', '2', NULL
+    '16', 'Anthology', 'Nonfiction', '5', '4'
+    '19', 'Other nonfiction', 'Nonfiction', '16', '4'
+    '25', 'Academic', 'Nonfiction', '2', '4'
+    '26', 'Letter', 'Nonfiction', '10', '4'
+    '29', 'Essay', 'Nonfiction', '8', '4'
+    '30', 'Journalism', 'Nonfiction', '1', '4'
+    '32', 'Diary', 'Nonfiction', '7', '4'
+    '33', 'Speech or sermon', 'Nonfiction', '13', '4'
+    '343', 'Official document', 'Nonfiction', '11', '4'
+    '350', 'Pamphlet or liturgical text', 'Nonfiction', '15', '4'
+    '386', 'Annotated edition', NULL, '17', '4'
+    '406', 'Educational', NULL, '18', '4'
+    '407', 'Scholarly database', NULL, '19', '4'
+'261', 'OTHER GENRES', 'Other', '3', NULL
+    '262', 'Name or anagram or other', 'Other', '6', '261'
+    '283', 'Cartoon', 'Other', '5', '261'
+    '301', 'Dance and performance', 'Other', '4', '261'
+    '302', 'Music', 'Other', '2', '261'
+    '306', 'Visual arts', 'Other', '1', '261'
+    '388', 'Fulltext database', NULL, '11', '261'
+    '396', 'Conversation', NULL, '12', '261'
+    '397', 'Manuscript miscellany', NULL, '13', '261'
+    '398', 'Tweet or chat or post', NULL, '14', '261'
+    '399', 'Advertisement', NULL, '15', '261'
+    '403', 'The Bible', NULL, '16', '261'
+
+
+INTERTEXTUALS
+
+# id, name, sortorder, parent
+'2', 'Local reference', '1', NULL
+'27', 'Adaptation', '3', NULL
+'37', 'MQ_GENRE', '5', NULL
+'47', 'Offshoot', '4', NULL
+'48', 'Recurrent references', '2', NULL
+'53', 'Shakespeare bio-fiction', '6', NULL
+'56', 'Musical setting', '7', NULL
+'58', 'Translation', '11', NULL
+'59', 'Illustration', '12', NULL
+'68', 'MQ_TYPOGRAPHY_Italics', '17', NULL
+'69', 'MQ_ANOMALY_Languageswitch', '18', NULL
+'70', 'MQ_TYPOGRAPHY_Commonplace', '19', NULL
+'71', 'MQ_VERBAL_Say', '20', NULL
+'72', 'MQ_VERBAL_Others', '21', NULL
+'73', 'MQ_VERBAL_Noun', '22', NULL
+'74', 'MQ_VERBAL_Verb', '23', NULL
+'75', 'MQ_TYPOGRAPHY_Quotemarks', '24', NULL
+'76', 'MQ_ANOMALY_Poetryswitch', '25', NULL
+'77', 'MQ_ANOMALY_Nominalization', '26', NULL
+'78', 'MQ_VERBAL_Generalization', '27', NULL
+'79', 'MQ_CONTEXT', '28', NULL
+'80', 'MQ_TYPOGRAPHY_Other', '29', NULL
+'81', 'MQ_VERBAL_likeas', '30', NULL
+'82', 'MQ_TYPOGRAPHY_Setoff', '31', NULL
+'84', 'MQ_ANOMALY_Grammar', '32', NULL
+'85', 'MQ_ANOMALY_Other thing', '33', NULL
+'86', 'MQ_TYPOGRAPHY_Heading', '34', NULL
+
+LANGUAGES
+
+# id, name, sortorder, parent
+'1', 'English', '1', NULL
+'2', 'German', '2', NULL
+'3', 'French', '3', NULL
+'75', 'Classical Greek', '10', NULL
+'77', 'Russian', '4', NULL
+'79', 'Eastern and Northern European', '6', NULL
+'115', 'Latin', '9', NULL
+'117', 'Asian', '8', NULL
+'125', 'Italian', '18', NULL
+'126', 'Portuguese', '19', NULL
+'127', 'Spanish', '20', NULL
+
+
+LINECATEGORIES
+# cleaned up rows
+
+# id, name, sortorder, parent
+'358', 'All', '1', NULL
+    '2', 'Line', '1', '358'
+        '311', 'Clause', '2', '2'
+        '312', 'Noun phrase', '3', '2'
+        '313', 'Verb phrase', '4', '2'
+        '314', 'Adjective phrase', '5', '2'
+        '315', 'Other', '6', '2'
+        '320', 'pending', '13', '2'
+        '346', 'Longer passage', '12', '2'
+    '283', 'Line - To be or not to be', '3', '358'
+            '354', 'To be or not to be that is the question', '1', '283'
+            '355', 'To be or not to be', '2', '283'
+            '356', '... longer', '3', '283'
+
+
+MODIFICATIONS 
+# cleaned up rows 
+
+# id, name, sortorder, parent
+'1', 'Pendings', '18', NULL
+'8', 'Deictic adaptation', '11', NULL
+'9', 'Substitution', '8', NULL
+'10', 'Addition', '9', NULL
+'11', 'Omission', '10', NULL
+'12', 'Order', '12', NULL
+'14', 'Paraphrase', '15', NULL
+'15', 'Other modification', '14', NULL
+'16', 'Not modified', '16', NULL
+'17', 'Syntactic transformation', '13', NULL
+
+
+
+NARRATIVES
+
+# id, name, sortorder, parent
+'81', 'Narrator', '1', NULL
+'83', 'Dialogue', '2', NULL
+'84', 'First-person narrator', '5', NULL
+'111', 'Interior monologue', '3', NULL
+'148', 'Fictional letter or diary', '7', NULL
+
+
+OVERLAPS
+
+# id, name, sortorder, parent
+'1', 'pending', '19', NULL
+'2', 'Perfect match', '2', NULL
+'3', 'Partial match', '3', NULL
+'4', 'Structural match', '4', NULL
+'5', 'Keyword', '5', NULL
+'43', 'Nathan Field', '20', NULL
+'44', 'William Shakespeare', '21', NULL
+'51', 'Ben Jonson', '22', NULL
+'52', 'Richard Burbage', '23', NULL
+'53', 'Edward Alleyn', '24', NULL
+'54', 'Henry Condell', '25', NULL
+'60', 'William Kempe', '27', NULL
+'61', 'Robert Armin', '28', NULL
+'62', 'William Barksted', '29', NULL
+'63', 'Joseph Taylor', '30', NULL
+'64', 'Stephen Hammerton', '31', NULL
+'65', 'Alexander Cooke', '32', NULL
+'66', 'William Ostler', '33', NULL
+'67', 'John  Heminges', '34', NULL
+'68', 'John Underwood', '35', NULL
+'69', 'Nicholas Tooley', '36', NULL
+'70', 'William Ecclestone', '37', NULL
+'71', 'John Lowin', '38', NULL
+'72', 'Richard Robinson', '39', NULL
+'73', 'Christopher Beeston', '40', NULL
+'74', 'Robert Benfield', '41', NULL
+'75', 'Alexander Gough', '42', NULL
+'76', 'William Sly', '43', NULL
+'77', 'Augustine Phillips', '44', NULL
+'79', 'Richard Cowley', '46', NULL
+'80', 'Charles Hart', '47', NULL
+'81', 'John Honyman', '48', NULL
+'82', 'Andrew Pennycuicke', '49', NULL
+'83', 'Thomas Pollard', '50', NULL
+'84', 'Thomas Pope', '51', NULL
+'85', 'Samuel Rowley', '52', NULL
+'86', 'William Rowley', '53', NULL
+'87', 'Timothy Read', '54', NULL
+'88', 'Richard Perkins', '55', NULL
+'89', 'William Robbins', '56', NULL
+'90', 'William Allen', '57', NULL
+'91', 'Anthony Turner', '58', NULL
+'92', 'Richard Sharpe', '59', NULL
+'93', 'Robert Gough', '60', NULL
+'94', 'Elizabeth Barry', '61', NULL
+'95', 'Thomas Betterton', '62', NULL
+'96', 'Rebecca Marshall', '63', NULL
+'97', 'William WIntershall', '64', NULL
+'98', 'Michael Mohun', '65', NULL
+'99', 'Edward Kynaston', '66', NULL
+'100', 'William Cartwright', '67', NULL
+'101', 'Elizabeth Cox', '68', NULL
+'102', 'Elizabeth James', '69', NULL
+'103', 'Elizabeth Boutell', '70', NULL
+'104', 'Nicholas Burt', '71', NULL
+'105', 'John Sinklo', '72', NULL
+
+
+QUOTMARKS
+
+# id, name, sortorder, parent
+'4', 'Unmarked', '3', NULL
+'117', 'Marked', '2', NULL
+    '6', 'MARKING VERBAL', '4', '117'
+        '18', 'Verbal other', '5', '6'
+        '81', 'Other verb', '3', '6'
+        '98', 'Verb to say', '2', '6'
+        '99', 'Metalinguistic noun', '4', '6'
+        '115', 'Verbal pending', '12', '6'
+        '123', 'like or as', '13', '6'
+        '126', 'Generalization', '14', '6'
+    '24', 'TYPOGRAPHY', '6', '117'
+        '28', 'Quotation marks', '2', '24'
+        '66', 'Typography other', '4', '24'
+        '114', 'Set off', '3', '24'
+        '120', 'Italics', '5', '24'
+        '141', 'Heading', '7', '24'
+        '142', 'Commonplace markers', '8', '24'
+    '33', 'ANOMALY', '7', '117'
+        '34', 'Archaism', '2', '33'
+        '36', 'Language switch', '3', '33'
+        '40', 'Anomaly other', '12', '33'
+        '78', 'Grammar', '5', '33'
+        '95', 'Nominalisation', '4', '33'
+        '119', 'Prose-Poetry switch', '13', '33'
+    '80', 'MARKING BY NAME', '8', '117'
+    '83', 'MARKING BY genre', '9', '117'
+    '84', 'MARKING visual or other', '10', '117'
+
+
+SECONDARIES
+
+# order of columns adjusted to fit other tables (was: id, sortorder, parent, name)
+
+# id, name, sortorder, parent
+'5', 'Reading', '1', NULL
+'67', 'Fulltext database', '2', NULL
+'63', 'Annotated edition', '3', NULL
+'62', 'Shakespeare Studies', '4', NULL
+'60', 'Literary Studies', '5', NULL
+'59', 'Anthology or dictionary', '7', NULL
+'71', 'Annotated Shakespeare edition', '11', NULL
+'79', 'Scholarly database', '13', NULL
+'83', 'morethanonelexia', '14', NULL
+
+
+SUBJECTS
+
+# id, name, sortorder, parent
+#'359', 'WOMAN WRITER', '10', NULL
+# -> no longer needed due to property of author hh:AuthorGender defined in hh_ontology.ttl
+
+'366', 'Shakespeare', '13', NULL
+'387', 'Classical Studies', '24', NULL
+    '169', 'Psychology, medicine, health', '7', '25'
+    '170', 'Linguistics', '3', '25'
+    '199', 'Philosophy, religion', '5', '25'
+    '356', 'History, (auto-)biography', '2', '25'
+    '93', 'Art, architecture, music', '1', '30'
+    '102', 'Sciences, engineering, IT', '5', '30'
+    '103', 'Politics, law, economics', '4', '30'
+    '123', 'Literature and theatre', '2', '30'
+    '355', 'Sociology, lifestyle, travel', '6', '30'
+
+
+TEXTUALS
+
+# id, name, sortorder, parent
+'80', 'BODY OF TEXT', '1', NULL
+'119', 'COMPLETE TEXT', '5', NULL
+'131', 'FOOTNOTE OR OTHER', '7', NULL
+'139', 'EPIGRAPH', '3', NULL
+'141', 'CHARACTERNAME', '9', NULL
+'146', 'TITLE', '2', NULL
+'150', 'ANTHOLOGY ENTRY', '4', NULL
+'152', 'STAGE DIRECTION', '10', NULL
+'153', 'PREFACE OR DEDICATION', '11', NULL
+'154', 'First part of academic title', '12', NULL
+
+
+
+WORKMARKS
+
+# id, name, sortorder, parent
+'4', 'Work unmarked', '1', NULL
+'21', 'Work title', '2', NULL
+'79', 'Work by context', '6', NULL
+'95', 'Work title wrong', '7', NULL
+'97', 'Work secondary character', '5', NULL
+'100', 'Work by character', '3', NULL
+'112', 'Work genre or epithet', '8', NULL
+'116', 'Work character by epithet', '4', NULL
+'122', 'Work bibligraphical detail', '9', NULL
+'123', 'Work Venue', '10', NULL

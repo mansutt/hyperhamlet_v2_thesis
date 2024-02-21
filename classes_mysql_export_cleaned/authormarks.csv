@@ -1,0 +1,7 @@
+id,name,sortorder,parent
+5,Author_anonymous,6,
+4,Author_by_context,5,
+3,Author_epithet,4,
+2,Author_name,3,
+1,Author_unmarked,2,
+6,Author_wrong,7,

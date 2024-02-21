@@ -1,0 +1,11 @@
+id,name,sortorder,parent
+123,Work_Venue,10,
+122,Work_bibligraphical_detail,9,
+100,Work_by_character,3,
+79,Work_by_context,6,
+116,Work_character_by_epithet,4,
+112,Work_genre_or_epithet,8,
+97,Work_secondary_character,5,
+21,Work_title,2,
+95,Work_title_wrong,7,
+4,Work_unmarked,1,

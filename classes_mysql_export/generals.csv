@@ -1,0 +1,127 @@
+id,name,sortorder,parent
+4,"Name (Company)",4,NULL
+6,"Scene or motif",5,NULL
+13,Claudius,4,4
+22,"Grave-diggers or clowns",7,4
+23,"Rosencrantz / Guildenstern",10,4
+33,Polonius,9,4
+39,"Closet Scene III:iv",11,6
+49,"The play-within-the-play",10,6
+62,"Elsinore / Wittenberg",12,4
+182,"The play (Venue: Theatre)",2,NULL
+183,"-- Hamlet performed in fiction",50,182
+184,"-- Hamlet unspecified",52,182
+274,Gertrude,5,4
+279,"Hamlet's madness",2,6
+290,"Ophelia's death",4,6
+291,"Ophelia's madness",5,6
+297,"Hamlet's indecision and melancholy",3,6
+298,""To be or not to be"",1,6
+300,"Gravedigger scene V:i",9,6
+301,"Ghost scenes",12,6
+302,Revenge,7,6
+306,"The skull",8,6
+307,Fortinbras,4,4
+308,Yorick,11,4
+309,Horatio,8,4
+310,"Ghost or Old Hamlet",6,4
+336,"Hamlet without the prince",6,6
+342,Ophelia,4,4
+344,Hamlet,4,4
+360,Another,130,6
+361,Others,13,4
+362,"Polonius' advice to Laertes",14,6
+364,"Old Hamlet's murder",15,6
+367,"Hamlet&#039;s Oedipus complex",16,6
+368,"The cock-crow I:i",17,6
+369,"NOT in Hamlet",131,6
+370,Laertes,14,4
+416,"LONDON_Globe Theatre",4,182
+417,"King's Men",1,4
+418,"Lord Chamberlain's (Lord Hunsdon's) Men",2,4
+420,"LONDON_Blackfriars",53,182
+421,"LONDON_The Theatre",54,182
+422,"Children of Pauls",15,4
+423,"Children of the Chapel Royal",16,4
+424,"Queen Henrietta's Men",17,4
+425,"LONDON_Cockpit",55,182
+427,"LONDON_Curtain Theatre",56,182
+428,"Children of the Queen's Revels",18,4
+429,"Admiral's Men",19,4
+430,"Lady Elizabeth's Men",20,4
+431,"LONDON_Whitefriars",57,182
+432,"LONDON_Red Bull",58,182
+433,"Queen Anne's Men",21,4
+434,"Queen's Men",22,4
+435,"LONDON_unknown venue",59,182
+437,"The Queen Majesty's Servants",24,4
+438,"LONDON_Rose Theatre",60,182
+439,"Worcester's Men",25,4
+440,"Pembroke's Men",26,4
+442,"Children of the King's Revels",27,4
+444,"LONDON_Fortune Playhouse",61,182
+445,"LONDON_Salisbury Court",62,182
+446,"Lord Strange's Men",28,4
+447,"Derby's Men",29,4
+448,"Revels Company",30,4
+449,"LONDON_Inner Temple",63,182
+450,"CAMBRIDGE_Trinity College",64,182
+451,"SHROPSHIRE_Ludlow Castle",65,182
+453,"Earl of Bridgewater's household",31,4
+454,"English court",32,4
+455,"LONDON_Banqueting House",66,182
+456,""Hamlet" read by fictional characters",135,6
+457,"LONDON_Archbishop's Palace",67,182
+458,"LONDON_Boar's Head",68,182
+459,"LONDON_Swan Theatre",69,182
+460,"Prince Charles' (Duke of York's) Men",33,4
+461,"Earl of Oxford's Men",34,4
+462,"LONDON_Hope Theatre",70,182
+463,"Children of the Whitefriars",35,4
+464,"CAMBRIDGE_St. John's  College",71,182
+465,"OXFORD_Trinity College ",72,182
+466,"John Ogilby's Company",36,4
+467,"DUBLIN_Werburgh Street Theatre",73,182
+468,"Beeston's Boys",37,4
+469,"Leicester's Men",38,4
+471,"LONDON_Moorfield",74,182
+472,"OXFORD_Christ Church College",75,182
+473,"LONDON_Hyde Park",76,182
+474,"King's Revels Company",39,4
+475,"ESSEX_Wanstead Manor",77,182
+476,"Marquess of Buckingham's household",40,4
+477,"RUTLAND_Burley-on-the-Hill",78,182
+478,"LONDON_Somerset House",79,182
+479,"CAMBRIDGE_King's College ",80,182
+480,"ROME_Aventine Hill",81,182
+481,"ROME_Capitol",82,182
+486,"LONDON_Greenwich Palace",86,182
+489,"Sussex's Men",41,4
+490,"LEICESTERSHIRE_Ashby de la Zouch Castle",87,182
+491,"Earl of Huntingdon's household",42,4
+493,"LONDON_Whitehall Palace",88,182
+494,"Earl of Oxford's Boys",43,4
+495,"LONDON_Middle Temple",89,182
+496,"GREECE_Mount Ossa",90,182
+497,"TURKEY_Callipolis",91,182
+498,"GREECE_Philippi",92,182
+500,"LONDON_Isle of Dogs",93,182
+502,"OXFORD_St Johns College",94,182
+504,"LONDON_Cuckolds Haven",95,182
+505,"The King's Company",44,4
+506,"The Duke&#039;s Company",45,4
+507,"LONDON_Theatre Royal",96,182
+508,"LONDON_Dorset Garden Theatre",97,182
+509,"GREECE_Hellespont",98,182
+510,"CAMBRIDGE_Christ's College",99,182
+511,"The Prince&#039;s Men",46,4
+512,"LONDON_Thomas Cranmers House",100,182
+513,"LONDON_Aldgate",101,182
+514,"LONDON_Islington",102,182
+515,"OXFORD_unknown location",103,182
+516,"LONDON_St. Paul's Playhouse",104,182
+518,"SYRIA_Aleppo",105,182
+519,"LONDON_Rotten Row",106,182
+520,"LONDON_Newgate Prison",107,182
+521,"Red Bull Company",47,4
+522,"LONDON_Hoxton",108,182

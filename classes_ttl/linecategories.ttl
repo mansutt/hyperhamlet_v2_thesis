@@ -1,0 +1,39 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:LINECATEGORIES_..._longer a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line_To_be_or_not_to_be .
+
+hh:LINECATEGORIES_Adjective_phrase a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line .
+
+hh:LINECATEGORIES_Clause a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line .
+
+hh:LINECATEGORIES_Line a rdfs:Class ;
+    rdfs:subClassOf hh:linecategories .
+
+hh:LINECATEGORIES_Line_To_be_or_not_to_be a rdfs:Class ;
+    rdfs:subClassOf hh:linecategories .
+
+hh:LINECATEGORIES_Longer_passage a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line .
+
+hh:LINECATEGORIES_Noun_phrase a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line .
+
+hh:LINECATEGORIES_Other a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line .
+
+hh:LINECATEGORIES_To_be_or_not_to_be a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line_To_be_or_not_to_be .
+
+hh:LINECATEGORIES_To_be_or_not_to_be_that_is_the a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line_To_be_or_not_to_be .
+
+hh:LINECATEGORIES_Verb_phrase a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line .
+
+hh:LINECATEGORIES_pending a rdfs:Class ;
+    rdfs:subClassOf hh:LINECATEGORIES_Line .
+

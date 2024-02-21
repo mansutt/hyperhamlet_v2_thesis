@@ -1,0 +1,11 @@
+id,name,sortorder,parent
+4,"Work unmarked",1,NULL
+21,"Work title",2,NULL
+79,"Work by context",6,NULL
+95,"Work title wrong",7,NULL
+97,"Work secondary character",5,NULL
+100,"Work by character",3,NULL
+112,"Work genre or epithet",8,NULL
+116,"Work character by epithet",4,NULL
+122,"Work bibligraphical detail",9,NULL
+123,"Work Venue",10,NULL

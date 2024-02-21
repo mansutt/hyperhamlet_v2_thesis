@@ -1,0 +1,21 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:AUTHORMARKS_Author_anonymous a rdfs:Class ;
+    rdfs:subClassOf hh:authormarks .
+
+hh:AUTHORMARKS_Author_by_context a rdfs:Class ;
+    rdfs:subClassOf hh:authormarks .
+
+hh:AUTHORMARKS_Author_epithet a rdfs:Class ;
+    rdfs:subClassOf hh:authormarks .
+
+hh:AUTHORMARKS_Author_name a rdfs:Class ;
+    rdfs:subClassOf hh:authormarks .
+
+hh:AUTHORMARKS_Author_unmarked a rdfs:Class ;
+    rdfs:subClassOf hh:authormarks .
+
+hh:AUTHORMARKS_Author_wrong a rdfs:Class ;
+    rdfs:subClassOf hh:authormarks .
+

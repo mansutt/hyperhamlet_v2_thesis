@@ -1,0 +1,159 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:GENRES_ALL_DRAMA a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_Fiction .
+
+hh:GENRES_ALL_POETRY a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_Fiction .
+
+hh:GENRES_ALL_PROSE_FICTION a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_Fiction .
+
+hh:GENRES_Academic a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Advertisement a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_Annotated_edition a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Anthology a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Biographical_or_historicizing a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_PROSE_FICTION .
+
+hh:GENRES_Cartoon a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_Childrens_writing a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_PROSE_FICTION .
+
+hh:GENRES_Closet_drama a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_POETRY .
+
+hh:GENRES_Comedy a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_DRAMA .
+
+hh:GENRES_Comic_strip_or_other a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_PROSE_FICTION .
+
+hh:GENRES_Conversation a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_Crime_fiction a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_PROSE_FICTION .
+
+hh:GENRES_Dance_and_performance a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_Diary a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Educational a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Epic_and_verse_narrative a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_POETRY .
+
+hh:GENRES_Essay a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Fiction a rdfs:Class ;
+    rdfs:subClassOf hh:genres .
+
+hh:GENRES_Fulltext_database a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_Gothic a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_PROSE_FICTION .
+
+hh:GENRES_History_play a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_DRAMA .
+
+hh:GENRES_Journalism a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Letter a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Manuscript_miscellany a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_Masque_or_other a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_DRAMA .
+
+hh:GENRES_Music a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_NONFICTION a rdfs:Class ;
+    rdfs:subClassOf hh:genres .
+
+hh:GENRES_Name_or_anagram_or_other a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_OTHER_GENRES a rdfs:Class ;
+    rdfs:subClassOf hh:genres .
+
+hh:GENRES_Official_document a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Opera_or_musical_theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_Fiction .
+
+hh:GENRES_Other_nonfiction a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Pamphlet_or_liturgical_text a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Poetry_unspecified a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_POETRY .
+
+hh:GENRES_Prose_unspecified a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_PROSE_FICTION .
+
+hh:GENRES_Romance a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_DRAMA .
+
+hh:GENRES_Romance_prose a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_PROSE_FICTION .
+
+hh:GENRES_Scholarly_database a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_Science_fiction_or_fantasy a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_PROSE_FICTION .
+
+hh:GENRES_Song_or_ballad a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_POETRY .
+
+hh:GENRES_Speech_or_sermon a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_NONFICTION .
+
+hh:GENRES_TV_film_radio_games a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_Fiction .
+
+hh:GENRES_The_Bible a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_Theatre a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_DRAMA .
+
+hh:GENRES_Tragedy a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_DRAMA .
+
+hh:GENRES_Tragicomedy a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_DRAMA .
+
+hh:GENRES_Tweet_or_chat_or_post a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+
+hh:GENRES_Verse_satire a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_ALL_POETRY .
+
+hh:GENRES_Visual_arts a rdfs:Class ;
+    rdfs:subClassOf hh:GENRES_OTHER_GENRES .
+

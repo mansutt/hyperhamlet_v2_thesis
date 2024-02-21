@@ -1,0 +1,33 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:WORKMARKS_Work_Venue a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_bibligraphical_detail a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_by_character a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_by_context a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_character_by_epithet a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_genre_or_epithet a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_secondary_character a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_title a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_title_wrong a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+
+hh:WORKMARKS_Work_unmarked a rdfs:Class ;
+    rdfs:subClassOf hh:workmarks .
+

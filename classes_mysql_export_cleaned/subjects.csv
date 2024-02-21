@@ -1,0 +1,12 @@
+id,name,sortorder,parent
+93,Art_architecture_music,1,30.0
+387,Classical_Studies,24,
+356,History_autobiography,2,25.0
+170,Linguistics,3,25.0
+123,Literature_and_theatre,2,30.0
+199,Philosophy_religion,5,25.0
+103,Politics_law_economics,4,30.0
+169,Psychology_medicine_health,7,25.0
+102,Sciences_engineering_IT,5,30.0
+366,Shakespeare,13,
+355,Sociology_lifestyle_travel,6,30.0

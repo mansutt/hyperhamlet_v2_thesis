@@ -1,0 +1,53 @@
+id,name,supergenre,sortorder,parent
+1,Fiction,Fiction,1,NULL
+4,NONFICTION,Nonfiction,2,NULL
+6,"ALL POETRY",Fiction,2,1
+7,"ALL DRAMA",Fiction,3,1
+16,Anthology,Nonfiction,5,4
+19,"Other nonfiction",Nonfiction,16,4
+20,"ALL PROSE FICTION",Fiction,1,1
+25,Academic,Nonfiction,2,4
+26,Letter,Nonfiction,10,4
+29,Essay,Nonfiction,8,4
+30,Journalism,Nonfiction,1,4
+32,Diary,Nonfiction,7,4
+33,"Speech or sermon",Nonfiction,13,4
+71,Theatre,Fiction,1,7
+75,"Romance (prose)",Fiction,6,20
+78,"Children's writing",Fiction,7,20
+81,"Poetry unspecified",Fiction,1,6
+82,"Song or ballad",Fiction,2,6
+118,"Closet drama",Fiction,4,6
+202,"Epic and verse narrative",Fiction,3,6
+261,"OTHER GENRES",Other,3,NULL
+262,"Name or anagram or other",Other,6,261
+270,"Biographical or historicizing",Fiction,3,20
+283,Cartoon,Other,5,261
+301,"Dance and performance",Other,4,261
+302,Music,Other,2,261
+306,"Visual arts",Other,1,261
+319,Gothic,Fiction,4,20
+320,"Science fiction or fantasy",Fiction,5,20
+321,"Crime fiction",Fiction,2,20
+322,"Prose unspecified",Fiction,1,20
+343,"Official document",Nonfiction,11,4
+350,"Pamphlet or liturgical text",Nonfiction,15,4
+353,"Comic strip or other",Fiction,8,20
+367,"TV, film, radio, games",NULL,4,1
+368,Tragedy,NULL,9,7
+369,Comedy,NULL,10,7
+370,"History play",NULL,11,7
+374,Tragicomedy,NULL,13,7
+375,Romance,NULL,14,7
+386,"Annotated edition",NULL,17,4
+388,"Fulltext database",NULL,11,261
+390,"Verse satire",NULL,6,6
+391,"Masque or other",NULL,23,7
+394,"Opera or musical theatre",NULL,5,1
+396,Conversation,NULL,12,261
+397,"Manuscript miscellany",NULL,13,261
+398,"Tweet or chat or post",NULL,14,261
+399,Advertisement,NULL,15,261
+403,"The Bible",NULL,16,261
+406,Educational,NULL,18,4
+407,"Scholarly database",NULL,19,4

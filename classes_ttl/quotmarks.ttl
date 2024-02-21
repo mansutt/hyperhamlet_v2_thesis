@@ -1,0 +1,84 @@
+@prefix hh: <http://hyperhamlet.unibas.ch/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hh:QUOTMARKS_ANOMALY a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_Marked .
+
+hh:QUOTMARKS_Anomaly_other a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_ANOMALY .
+
+hh:QUOTMARKS_Archaism a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_ANOMALY .
+
+hh:QUOTMARKS_Commonplace_markers a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_TYPOGRAPHY .
+
+hh:QUOTMARKS_Generalization a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_MARKING_VERBAL .
+
+hh:QUOTMARKS_Grammar a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_ANOMALY .
+
+hh:QUOTMARKS_Heading a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_TYPOGRAPHY .
+
+hh:QUOTMARKS_Italics a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_TYPOGRAPHY .
+
+hh:QUOTMARKS_Language_switch a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_ANOMALY .
+
+hh:QUOTMARKS_MARKING_BY_NAME a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_Marked .
+
+hh:QUOTMARKS_MARKING_BY_genre a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_Marked .
+
+hh:QUOTMARKS_MARKING_VERBAL a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_Marked .
+
+hh:QUOTMARKS_MARKING_visual_or_other a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_Marked .
+
+hh:QUOTMARKS_Marked a rdfs:Class ;
+    rdfs:subClassOf hh:quotmarks .
+
+hh:QUOTMARKS_Metalinguistic_noun a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_MARKING_VERBAL .
+
+hh:QUOTMARKS_Nominalisation a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_ANOMALY .
+
+hh:QUOTMARKS_Other_verb a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_MARKING_VERBAL .
+
+hh:QUOTMARKS_ProsePoetry_switch a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_ANOMALY .
+
+hh:QUOTMARKS_Quotation_marks a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_TYPOGRAPHY .
+
+hh:QUOTMARKS_Set_off a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_TYPOGRAPHY .
+
+hh:QUOTMARKS_TYPOGRAPHY a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_Marked .
+
+hh:QUOTMARKS_Typography_other a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_TYPOGRAPHY .
+
+hh:QUOTMARKS_Unmarked a rdfs:Class ;
+    rdfs:subClassOf hh:quotmarks .
+
+hh:QUOTMARKS_Verb_to_say a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_MARKING_VERBAL .
+
+hh:QUOTMARKS_Verbal_other a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_MARKING_VERBAL .
+
+hh:QUOTMARKS_Verbal_pending a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_MARKING_VERBAL .
+
+hh:QUOTMARKS_like_or_as a rdfs:Class ;
+    rdfs:subClassOf hh:QUOTMARKS_MARKING_VERBAL .
+
